@@ -248,7 +248,7 @@ let result = characters.map(function(crr) {
 
 
 
-// js question part 22
+// js question part 23
 
 function check() {
     throw new Error("This is a error");
@@ -258,7 +258,7 @@ function show(name = check()) {
     console.log(name);  
 }
 
-show('djksfg');
+// show('djksfg');
 
 
 
@@ -267,3 +267,28 @@ show('djksfg');
 
 
 
+
+
+// js question part 24
+
+//write a function to print below pattern 
+// based on the number of rows given
+
+// *
+// **
+// ***
+// ****
+// *****
+
+function printofPatterrn (rows) {
+    for(let i = 1; i <= rows; i ++) {
+        let pattern = "";
+        for(let j = 1; j <= i; j++) {
+            pattern += "*";
+        }
+        console.log(pattern);
+        
+    }
+}
+
+printofPatterrn(6);
