@@ -291,4 +291,14 @@ function printofPatterrn (rows) {
     }
 }
 
-printofPatterrn(6);
+// printofPatterrn(6);
+
+
+
+
+
+
+// js question part 26
+const number = [1, 2, 3];
+number[10] = 11;
+console.log(number);
