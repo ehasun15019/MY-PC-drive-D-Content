@@ -301,4 +301,35 @@ function printofPatterrn (rows) {
 // js question part 26
 const number = [1, 2, 3];
 number[10] = 11;
-console.log(number);
+// console.log(number);
+
+
+
+
+
+
+
+
+// js question part 27
+
+// write a function in JS to count 
+// vowel in a given string
+
+const myString = "Subscribe ehasun_dev channel";
+
+function countVowel(str) {
+    const vowel = "aeiouAeiou";
+    let count = 0;
+
+    for(let i = 0; i < str.length; i++) {
+        if(vowel.includes(str[i])){
+            count++;
+        }
+    }
+
+    return count;
+}
+
+const vowelCounter = countVowel(myString);
+console.log(vowelCounter);
+
