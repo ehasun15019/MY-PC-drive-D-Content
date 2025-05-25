@@ -331,5 +331,38 @@ function countVowel(str) {
 }
 
 const vowelCounter = countVowel(myString);
-console.log(vowelCounter);
+// console.log(vowelCounter);
+
+
+
+
+
+
+
+
+// js question part 28
+
+// write a JS function sum of all  
+// digits of a give number of n
+
+//  n = 31  =  3 + 1 = 4
+
+
+function sumDigit(n) {
+    let sum = 0;
+    const num = String(n);
+
+    for(i = 0; i < num.length; i++) {
+        sum += parseInt(num[i]);
+    }
+
+    return sum;
+}
+
+
+console.log(sumDigit(333333333));
+
+
+
+
 
