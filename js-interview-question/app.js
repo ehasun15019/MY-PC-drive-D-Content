@@ -360,7 +360,25 @@ function sumDigit(n) {
 }
 
 
-console.log(sumDigit(333333333));
+// console.log(sumDigit(333333333));
+
+
+
+
+
+
+
+// js question part 29
+
+const arr = [1,2,3,4,5];
+
+for(let i = 0; i < arr.length; i ++) {
+    setTimeout(() => {
+        console.log(arr[i]);       
+    }, 1000)
+}
+
+
 
 
 
