@@ -374,11 +374,38 @@ const arr = [1,2,3,4,5];
 
 for(let i = 0; i < arr.length; i ++) {
     setTimeout(() => {
-        console.log(arr[i]);       
+        // console.log(arr[i]);       
     }, 1000)
 }
 
 
+
+
+
+
+
+
+
+// js question part 30 
+
+const binary = "101101";
+
+function binaryToDecimal(binaryString) {
+    let decimal = 0;
+    let power = 0;
+
+    for(let i = binaryString.length - 1; i >= 0; i--) {
+        const digit = parseInt(binaryString[i]);
+
+        decimal += digit * Math.pow(2, power);
+        power++;
+    }
+
+    return decimal;
+}
+
+const output = binaryToDecimal(binary);
+console.log(output);
 
 
 
