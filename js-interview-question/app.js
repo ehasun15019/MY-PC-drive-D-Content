@@ -405,9 +405,40 @@ function binaryToDecimal(binaryString) {
 }
 
 const output = binaryToDecimal(binary);
-console.log(output);
+// console.log(output);
 
 
 
 
 
+
+
+
+
+
+
+// js question part 31
+
+// write a function to find factorial of a given 
+// number
+
+// 5! = 5 x 4 x 3 x 2 x 1 = 120
+
+function factorial(n) {
+    if(n < 0) {
+        return "factorial is not define for negative number";
+    }
+
+    if(n === 0 || n === 1) {
+        return 1;
+    }
+
+    let result = 1; 
+    for(let i = 2; i <= n; i++) {
+        result *= i;
+    }
+
+    return result;
+}
+
+console.log(factorial(6));
