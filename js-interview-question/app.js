@@ -441,4 +441,27 @@ function factorial(n) {
     return result;
 }
 
-console.log(factorial(6));
+// console.log(factorial(6));
+
+
+
+
+
+
+
+
+
+
+
+
+// js question part 32
+
+const array = [1, 2, 3, 4, 5];
+const rev = [];
+
+while(array.length > 0) {
+    rev.push(array.pop());
+}
+
+
+console.log(rev);
