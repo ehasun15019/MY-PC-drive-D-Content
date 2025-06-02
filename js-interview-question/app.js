@@ -462,6 +462,36 @@ const rev = [];
 while(array.length > 0) {
     rev.push(array.pop());
 }
+ 
+// console.log(rev);
 
 
-console.log(rev);
+
+
+
+
+
+
+
+// const {length} = "hello";
+// console.log(length);
+
+
+
+
+
+
+
+// js question part 33
+const numbers = [5, 10, 15, 20, 30];
+
+const findOutput = numbers.find((num) => {
+    return num > 10;
+});
+
+const filterOutput = numbers.filter((num) => {
+    return num > 10;
+});
+
+console.log(findOutput);
+console.log(filterOutput);
